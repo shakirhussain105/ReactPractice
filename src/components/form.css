@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+h1 {
+  text-shadow: 0 2px 2px black;
+}
+
+input {
+  padding: 10px 20px;
+  text-align: center;
+}
+button {
+  background: purple;
+  color: #fff;
+  border: 2px solid #000;
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,8 @@
+.card {
+  width: 25%;
+  height: 290px;
+}
+.card .car-inner,
+.card .card-back {
+  height: 290px;
+}

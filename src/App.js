@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Covid from "./components/Covid";
+import Greeting from "./components/Greeting";
+import MyDate from "./components/MyDate";
+import Netflix from "./components/Netflix";
+import Card from "./components/Card";
+import Gallery from "./components/Gallery";
+import Clock from "./components/Clock";
+import Form from "./components/Form";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <>
+      <Form />
+      {/* <Clock /> */}
+      {/* <Gallery /> */}
 
+      {/* <Covid /> */}
+      {/* <Netflix /> */}
+      {/* <MyDate /> */}
+      {/* <Greeting /> */}
+    </>
+  );
+};
 export default App;
